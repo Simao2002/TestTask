@@ -58,10 +58,10 @@ def sync_folders(source, replica, log_file):
 
 def main():
     parser = argparse.ArgumentParser(description="Folder Synchronizer")
-    parser.add_argument("source", help="Source folder Path")
-    parser.add_argument("replica", help="Replica Folder Path")
-    parser.add_argument("interval", type=int, help="Synchronization interval in seconds")
-    parser.add_argument("log", help="Log File Path")
+    parser.add_argument("source") # Source folder Path
+    parser.add_argument("replica") # Replica Folder Path
+    parser.add_argument("interval", type=int) # Synchronization interval in seconds
+    parser.add_argument("log") # Log File Path
     args = parser.parse_args()
 
     while True:

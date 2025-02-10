@@ -24,13 +24,13 @@ Download and install Python on your operating system: [Python Download](https://
 ### 2️⃣ Run the program with the following arguments:
 
 ```sh
-python teste.py <source_folder> <replica_folder> <interval> <log_file>
+python testtask.py <source_folder> <replica_folder> <interval> <log_file>
 ```
 
 ### 🔹 Example usage:
 
 ```sh
-python teste.py /path/to/source /path/to/replica 60 sync.log
+python testtask.py /path/to/source /path/to/replica 60 sync.log
 ```
 
 - `<source_folder>`: Path to the source folder.
